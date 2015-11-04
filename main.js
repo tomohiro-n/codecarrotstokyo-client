@@ -1,4 +1,4 @@
-var socket = io('safe-wave-6447.herokuapp.com:80');
+var socket = io('http://safe-wave-6447.herokuapp.com:80');
 $('form').submit(function(){
 	socket.emit(
 		'request',
