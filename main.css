@@ -4,16 +4,25 @@
 	box-sizing: border-box;
 }
 
+
+
 body {
+	background-image:url(./image/codecarrots.jpg);
+    min-height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
 	font: 13px Helvetica, Arial;
+	background-color: #FFF
 }
 
+
 form {
-	background: green;
-	padding: 3px;
+	background: #FFEEFF;
+	padding: 3px 20px 5px 20px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	color: #FF69A3;
 }
 
 form input {
@@ -27,7 +36,8 @@ form button {
 	width: 9%;
 	background: rgb(130, 224, 255);
 	border: none;
-	padding: 10px;
+	padding: 5px;
+	background-color: #FFABCE
 }
 
 #messages {
@@ -38,8 +48,11 @@ form button {
 
 #messages li {
 	padding: 5px 10px;
+	border-bottom:1px dotted #FF69A3;
+	background-color:rgba(255,255,255,0.8);
 }
 
 #messages li:nth-child(odd) {
-	background: #eee;
+	border-bottom:1px dotted #FF69A3;
+	background-color:rgba(255,255,255,0.8);
 }
