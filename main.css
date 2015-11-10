@@ -52,7 +52,3 @@ form button {
 	background-color:rgba(255,255,255,0.8);
 }
 
-#messages li:nth-child(odd) {
-	border-bottom:1px dotted #FF69A3;
-	background-color:rgba(255,255,255,0.8);
-}
